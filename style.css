@@ -1,0 +1,113 @@
+body{
+   background-image:url("./9873803-military-uss-new-jersey-bb-62-hd.jpg");
+   background-size:cover;
+   background-repeat:no-repeat;
+   background-position: center;
+
+}
+#game-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #game-info p{
+    font-size: 20px;
+  }
+  
+h1{
+    text-align: center;
+   font-size: 40px;
+}
+#gamesboard-container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+   
+     
+   
+}
+.block{
+    width: 20px;
+    height: 20px;
+  
+    
+}
+.game-board{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    opacity: 0.5; /* 50% transparent */
+    display: flex;
+    flex-wrap: wrap;
+}
+.option-container{
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    background-color: yellow;
+    opacity: 0.5; /* 50% transparent */
+    display: flex;
+    align-items: center;
+    
+
+}
+.destroyer-color{
+    background-color: blue;
+}
+.destroyer{
+    
+    width: 20px;
+    height: 10px;
+    margin: 3px;
+}
+.submarine-color{
+    background-color: green;
+}
+.submarine{
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+}
+.cruiser-color{
+    background-color: purple;
+}
+.battelship-color{
+    background-color: orange;
+}
+.carrier-color{
+    background-color: red;
+}
+.cruiser{
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+}
+.battelship{
+    width: 40px;
+    height: 10px;
+    margin: 3px;
+}
+.carrier{
+    width: 50px;
+    height: 10px;
+    }
+.hover{
+    background-color: grey;
+}
+.boom{
+    background-color: red !important;
+}
+.empty{
+    background-color: grey !important ;
+}
+#computer .destroyer-color,
+#computer .submarine-color,
+#computer .cruiser-color,
+#computer .battelship-color,
+#computer .carrier-color{
+    background-color: pink;
+}
